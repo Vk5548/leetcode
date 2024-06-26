@@ -5,14 +5,14 @@ class Solution:
         summ = 0
         for i in range(k):
             summ += nums[i]
-        curr = summ / k
+        curr = summ
         ans = curr
         for i in range(k, len(nums)):
             summ += nums[i] - nums[i-k]
             
-            curr = summ / k
+            curr = summ
             ans = max(ans, curr)
-        return ans
+        return ans / k
             
             
         
