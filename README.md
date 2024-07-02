@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/Vk5548/leetcode/tree/master/0283-move-zeroes) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 ## Hash Table
 |  |
@@ -12,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/Vk5548/leetcode/tree/master/0283-move-zeroes) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 ## Binary Search
 |  |
