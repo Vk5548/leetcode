@@ -4,8 +4,6 @@ class Solution:
         mini = sys.maxsize
         for right in range(len(nums)):
             currsum += nums[right]
-            if currsum < target:
-                continue
             while currsum >= target:
                 mini = min(mini, right - left + 1)
                 currsum -= nums[left]
