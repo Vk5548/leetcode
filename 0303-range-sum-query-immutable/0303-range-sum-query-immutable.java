@@ -1,13 +1,10 @@
 class NumArray {
     int[] prefix;
-    int[] nums;
     public NumArray(int[] nums) {
-        this.nums = new int[nums.length];
         this.prefix = new int[nums.length];
-        int curr = 0;
-        for(int i = 0 ; i < nums.length; i++){
-            curr += nums[i];
-            this.prefix[i] = curr;
+        this.prefix[0] = nums[0];
+        for(int i = 1 ; i < nums.length; i++){
+            this.prefix[i] = this.prefix[i-1] + nums[i];
         }
     }
     
