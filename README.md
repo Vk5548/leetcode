@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Vk5548/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Vk5548/leetcode/tree/master/0724-find-pivot-index) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1833-find-the-highest-altitude](https://github.com/Vk5548/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Vk5548/leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
@@ -46,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Vk5548/leetcode/tree/master/1321-get-equal-substrings-within-budget) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Vk5548/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Prefix Sum
 |  |
@@ -64,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
