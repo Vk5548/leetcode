@@ -1,24 +1,28 @@
-use std::collections::HashMap;
 impl Solution {
     pub fn number_of_subarrays(nums: Vec<i32>, k: i32) -> i32 {
-        let mut mp : HashMap<i32, i32> = HashMap::new();
-        mp.insert(0, 1);
-        let mut ans = 0;
-        let mut curr = 0;
-        let mut count = 0;
-        for &n in &nums{
-            println!("n is {}", n);
-            if n % 2 != 0{
-                curr += 1;
-                println!("curr is {}", curr);
+        let (mut res, mut odd) = (0, 0);
+        let (mut l, mut m) = (0, 0);
+
+        for r in 0..nums.len() {
+            if nums[r] % 2 != 0 {
+                odd += 1;
             }
-            if let Some(&val) = mp.get(&(curr - k)){
-                ans += val;
-                println!("ans : {}", ans);
+
+            while odd > k {
+                if nums[l] % 2 != 0 {
+                    odd -= 1;
+                }
+                l += 1;
+                m = l;
             }
-            *mp.entry(curr).or_insert(0) += 1;
-            
+
+            if odd == k {
+                while nums[m] % 2 == 0 {
+                    m += 1;
+                }
+                res += (m - l) as i32 + 1;
+            }
         }
-        ans
+        res as i32
     }
 }
