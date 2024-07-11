@@ -32,3 +32,31 @@ impl Solution {
         }
     }
 }
+
+// Character to Index Conversion:
+// ch as u8: Converts the character ch to its ASCII byte value.
+// b'a': Represents the ASCII value of the character 'a'.
+// ch as u8 - b'a': Calculates the zero-based index for the character, where 'a' maps to 0, 'b' maps to 1, and so on.
+// as usize: Converts the resulting index to usize because array indexing in Rust requires usize type.
+
+// pub fn max_number_of_balloons(text: String) -> i32 {
+    //     let mut freq = [0; 26];
+    //     for ch in text.chars() {
+    //         freq[(ch as u8 - b'a') as usize] += 1;
+    //     }
+
+    //     let mut ans = 0;
+    //     'out: loop {
+    //         for ch in "balloon".chars() {
+    //             let i = (ch as u8 - b'a') as usize;
+    //             if freq[i] == 0 {
+    //                 break 'out;
+    //             }
+
+    //             freq[i] -= 1;
+    //         }
+    //         ans += 1;
+    //     }
+
+    //     ans
+    // }
