@@ -10,7 +10,7 @@ impl Solution {
         // }
         // anagram.into_values().collect()
 
-        //NEW Solution
+        //NEW Solution : Old Solution is better
         let mut cache : HashMap<[i32; 26], Vec<String>> = HashMap::new();
         for s in strs{
             let mut charArray = s.chars().collect::<Vec<char>>();
