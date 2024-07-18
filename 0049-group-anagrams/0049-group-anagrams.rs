@@ -17,7 +17,7 @@ impl Solution {
             let mut letters: [i32; 26] = [0; 26];
             for c in charArray{
                 print!("c iz {} ", c);
-                letters[(c as u8 - 'a' as u8) as usize] += 1;
+                letters[(c as u8 - 'a' as u8) as usize] += 1; // way to convert it into ascii value
             }
             match cache.get_mut(&letters) {
                 None => { cache.insert(letters, vec![s]);}
