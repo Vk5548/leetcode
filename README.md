@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1833-find-the-highest-altitude](https://github.com/Vk5548/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 ## Hash Table
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Vk5548/leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 ## Two Pointers
 |  |
@@ -94,9 +96,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Counting
 |  |
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/Vk5548/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 <!---LeetCode Topics End-->
