@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
+| [0088-merge-sorted-array](https://github.com/Vk5548/leetcode/tree/master/0088-merge-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Vk5548/leetcode/tree/master/0283-move-zeroes) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Vk5548/leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Vk5548/leetcode/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/Vk5548/leetcode/tree/master/0283-move-zeroes) |
 | [2128-reverse-prefix-of-word](https://github.com/Vk5548/leetcode/tree/master/2128-reverse-prefix-of-word) |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
+| [0088-merge-sorted-array](https://github.com/Vk5548/leetcode/tree/master/0088-merge-sorted-array) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
