@@ -3,10 +3,8 @@ impl Solution {
         let (mut i, mut j) = (0, 0);
         let vec_s = s.chars().collect::<Vec<char>>();
         let vec_t = t.chars().collect::<Vec<char>>();
-        println!("{:?}", vec_t);
         while i < s.len() && j < t.len(){
             if vec_s[i] == vec_t[j]{
-                println!("{} {}", vec_s[i], vec_t[j]);
                 i += 1;
             }
             j += 1;
