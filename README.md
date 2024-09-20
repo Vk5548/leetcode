@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Vk5548/leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/Vk5548/leetcode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/Vk5548/leetcode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/Vk5548/leetcode/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Vk5548/leetcode/tree/master/0392-is-subsequence) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Vk5548/leetcode/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Vk5548/leetcode/tree/master/0071-simplify-path) |
 | [0874-backspace-string-compare](https://github.com/Vk5548/leetcode/tree/master/0874-backspace-string-compare) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Vk5548/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Simulation
