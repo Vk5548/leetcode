@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Vk5548/leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Vk5548/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0346-moving-average-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0487-max-consecutive-ones-ii](https://github.com/Vk5548/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0525-contiguous-array](https://github.com/Vk5548/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Vk5548/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0346-moving-average-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/Vk5548/leetcode/tree/master/0969-number-of-recent-calls) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 ## Math
@@ -158,9 +160,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0346-moving-average-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/Vk5548/leetcode/tree/master/0969-number-of-recent-calls) |
 ## Data Stream
 |  |
 | ------- |
+| [0346-moving-average-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0969-number-of-recent-calls](https://github.com/Vk5548/leetcode/tree/master/0969-number-of-recent-calls) |
 <!---LeetCode Topics End-->
