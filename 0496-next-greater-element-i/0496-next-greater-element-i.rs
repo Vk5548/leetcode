@@ -21,7 +21,7 @@ impl Solution {
         }
 
         for &num in nums1.iter(){
-            res.push(*nextGE.get(&num).unwrap_or(&-1));
+            res.push(*nextGE.get(&num).unwrap());
         }
         res
     }
