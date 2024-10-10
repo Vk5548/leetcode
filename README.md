@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Vk5548/leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0487-max-consecutive-ones-ii](https://github.com/Vk5548/leetcode/tree/master/0487-max-consecutive-ones-ii) |
+| [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Vk5548/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/Vk5548/leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
+| [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/Vk5548/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Vk5548/leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/Vk5548/leetcode/tree/master/0071-simplify-path) |
+| [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Vk5548/leetcode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/Vk5548/leetcode/tree/master/0874-backspace-string-compare) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Vk5548/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Vk5548/leetcode/tree/master/0739-daily-temperatures) |
 ## Monotonic Queue
 |  |
