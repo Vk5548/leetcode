@@ -13,45 +13,17 @@
  *     }
  * }
  */
-
-class Pair{
-    TreeNode node;
-    int currSum;
-    Pair(TreeNode node, int currSum){
-        this.node = node;
-        this.currSum = currSum;
-    }
-}
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
-        if (root == null) { //base case that I forgot
+        if (root == null){
             return false;
         }
-        Stack<Pair> stk = new Stack<>();
-        stk.push(new Pair(root, root.val));
 
-        while(!stk.isEmpty()){
-            Pair pair = stk.pop();
-            TreeNode node = pair.node;
-            int currSum = pair.currSum;
-
-            //To check if we are the leaf node
-            if(node.left == null && node.right == null){ //leaf node
-                if(currSum == targetSum){
-                    return true;
-                }else{
-
-                }
-            }else{
-                if(node.right != null){
-                    stk.push(new Pair(node.right, currSum + node.right.val));
-                }
-                if(node.left != null){
-                    stk.push(new Pair(node.left, currSum + node.left.val));
-                }
-            }
-
+        if(root.left == null && root.right == null){
+            return root.val == targetSum;
         }
-        return false;
+
+        return hasPathSum(root.left, targetSum - root.val) || 
+        hasPathSum(root.right, targetSum - root.val);
     }
 }
