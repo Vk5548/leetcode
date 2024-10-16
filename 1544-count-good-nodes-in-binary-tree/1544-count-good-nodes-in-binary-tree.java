@@ -13,39 +13,23 @@
  *     }
  * }
  */
-
-class Pair{
-    TreeNode node ;
-    int currMax;
-    Pair(TreeNode node, int max){
-        this.node = node;
-        currMax = max;
-    }
-}
 class Solution {
     public int goodNodes(TreeNode root) {
-        //base case
-        if(root == null){
+        return goodNodesWithMax(root, root.val);
+    }
+
+    public int goodNodesWithMax(TreeNode node, int max){
+        if(node == null){
             return 0;
         }
-        Stack<Pair> stk = new Stack<>();
-        stk.push(new Pair(root, root.val)); //currMax that's been seen
-        int ans = 0;
-        while(!stk.isEmpty()){
-            Pair p = stk.pop();
-            TreeNode node = p.node;
-            int currMax = p.currMax;
-            if(node.val >= currMax){
-                ans++;
-            }
-            currMax = node.val >= currMax ? node.val : currMax;
-            if(node.right != null){
-                stk.push(new Pair(node.right, node.right.val >= currMax ? node.right.val : currMax));
-            }
-            if(node.left != null){
-                stk.push(new Pair(node.left, node.left.val >= currMax ? node.left.val : currMax));
-            }
+
+        if(node.val >= max){
+            return 1 + goodNodesWithMax(node.right, node.val) +
+                goodNodesWithMax(node.left, node.val);
+        }else{
+            return goodNodesWithMax(node.right, max) +
+                goodNodesWithMax(node.left, max);
         }
-        return ans;
+ 
     }
 }
