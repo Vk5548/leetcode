@@ -19,11 +19,11 @@ class Solution {
         result = new ArrayList<>();
         List<Integer> currList = new ArrayList<>();
         // currList.add(root.val);
-        helper(root, targetSum, 0, currList, result);
+        helper(root, targetSum, 0, currList);
         return result;
     }
 
-    public void helper(TreeNode node, int targetSum, int currSum, List<Integer> currList, List<List<Integer>> result){
+    public void helper(TreeNode node, int targetSum, int currSum, List<Integer> currList){
         if(node == null){
             return;
         }
@@ -31,14 +31,14 @@ class Solution {
         currList.add(node.val);
         if(node.left == null && node.right == null){ // It's a leaf node // no need to go further
             if(currSum == targetSum){
-                result.add(new ArrayList<>(currList));
+                result.add(new ArrayList<>(currList));// add a copy always
             }
-            int temp = currList.remove(currList.size() - 1);
+            int temp = currList.remove(currList.size() - 1); // Rememeber how you remove it
             currSum -= temp;
             return;
         }
-        helper(node.left, targetSum, currSum, currList, result);
-        helper(node.right, targetSum, currSum, currList, result);
+        helper(node.left, targetSum, currSum, currList);
+        helper(node.right, targetSum, currSum, currList);
         int temp = currList.remove(currList.size() - 1);
         currSum -= temp;
         return;
