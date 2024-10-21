@@ -27,12 +27,10 @@ class Solution {
         if(left == null && right == null){
             return true;
         }
-        if(left == null || right == null){
+        if(left == null || right == null || left.val != right.val){
             return false;
         }
-        if(left.val != right.val){
-            return false;
-        }
+        
         boolean leftSide = helperRecursive(left.left, right.right);
         boolean rightSide = helperRecursive(left.right, right.left);
         return leftSide && rightSide;
