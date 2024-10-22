@@ -14,41 +14,33 @@
  * }
  */
 
-class Pair{
-    TreeNode node;
-    char pos;
-    Pair(TreeNode node, char pos){
-        this.node = node;
-        this.pos = pos;
-    }
-}
+
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         if(root == null){
             return new ArrayList<>();
         }
-        Queue<Pair> que = new LinkedList<>();
-        que.add(new Pair(root, '_'));
+        Queue<TreeNode> que = new LinkedList<>();
+        que.add(root);
         List<Integer> result = new ArrayList<>();
         while(!que.isEmpty()){
             int size = que.size();
-            TreeNode mostRightNode = null;
+            int mostRightVal = 0;
             for(int i = 0; i < size; i++){
-                Pair pair = que.poll();
-                TreeNode node = pair.node;
-                char pos = pair.pos;
-                mostRightNode = node;
+                TreeNode node = que.poll();
+                
+                mostRightVal = node.val;
                 //not storing any left child
                 if(node.left != null){
-                    que.add(new Pair(node.left, 'l'));
+                    que.add(node.left);
                 }
                 if(node.right != null){
-                    que.add(new Pair(node.right, 'r'));
+                    que.add(node.right);
                 }
                 //add to the result list
                 
             }
-            result.add(mostRightNode.val);
+            result.add(mostRightVal);
         }
         return result;
     }
