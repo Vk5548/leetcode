@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/Vk5548/leetcode/tree/master/0088-merge-sorted-array) |
+| [0200-number-of-islands](https://github.com/Vk5548/leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Vk5548/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Vk5548/leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Vk5548/leetcode/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/Vk5548/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Vk5548/leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Vk5548/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Vk5548/leetcode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Vk5548/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Vk5548/leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -316,9 +319,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Vk5548/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
 ## Graph
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vk5548/leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
