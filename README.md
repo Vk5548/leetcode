@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Vk5548/leetcode/tree/master/0739-daily-temperatures) |
 | [1019-squares-of-a-sorted-array](https://github.com/Vk5548/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Vk5548/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
 | [0871-keys-and-rooms](https://github.com/Vk5548/leetcode/tree/master/0871-keys-and-rooms) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Vk5548/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Vk5548/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1254-deepest-leaves-sum](https://github.com/Vk5548/leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Vk5548/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -356,4 +358,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/Vk5548/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Vk5548/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 <!---LeetCode Topics End-->
