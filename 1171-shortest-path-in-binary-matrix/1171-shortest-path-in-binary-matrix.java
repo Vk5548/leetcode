@@ -36,14 +36,8 @@ class Solution {
         Queue<int[]> queue = new LinkedList<>(); //LIFO
         queue.add(new int[]{0, 0});
         int level = 1;
-
-
-
         while(!queue.isEmpty()){
-            int size = queue.size(); 
-            
-
-
+            int size = queue.size();
             for(int z = 0; z < size; z++){
                 int[] currentNode = queue.poll(); // polling out from the start
                 int currNodeI = currentNode[0];
@@ -52,9 +46,6 @@ class Solution {
                 if(currNodeI == n-1 && currNodeJ == n-1){
                     return level;
                 }
-                
-
-                
                 //pushing the current node's children in the queue
                 // How to access the children//
                 for(int x = -1; x <= 1; x++){
