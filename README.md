@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Vk5548/leetcode/tree/master/2421-maximum-number-of-pairs-in-array) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Vk5548/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Vk5548/leetcode/tree/master/2421-maximum-number-of-pairs-in-array) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Vk5548/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/Vk5548/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1731-even-odd-tree](https://github.com/Vk5548/leetcode/tree/master/1731-even-odd-tree) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Vk5548/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Vk5548/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -282,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Vk5548/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1731-even-odd-tree](https://github.com/Vk5548/leetcode/tree/master/1731-even-odd-tree) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Vk5548/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Binary Tree
 |  |
 | ------- |
@@ -335,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Vk5548/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Graph
 |  |
 | ------- |
@@ -344,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Vk5548/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Vk5548/leetcode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Vk5548/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Matrix
 |  |
 | ------- |
