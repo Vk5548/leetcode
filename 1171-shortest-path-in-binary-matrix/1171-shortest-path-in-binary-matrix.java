@@ -35,9 +35,10 @@ class Solution {
         //getting all the neighbors of the current node
         Queue<int[]> queue = new LinkedList<>(); //LIFO
         queue.add(new int[]{0, 0});
-        int level = 1;
+        int level = 0;
         while(!queue.isEmpty()){
             int size = queue.size();
+            level++; 
             for(int z = 0; z < size; z++){
                 int[] currentNode = queue.poll(); // polling out from the start
                 int currNodeI = currentNode[0];
@@ -58,9 +59,9 @@ class Solution {
                     }
                 }
             }
-            level++; //current-level unlocked
+            //current-level unlocked
         }
         return -1;
-
+        // level++; 
     }
 }
