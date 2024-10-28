@@ -1,6 +1,6 @@
 class Solution {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
-        Set<Integer> visited = new HashSet<>();
+        int[] visited = new int[n];
         //prerocessing the graph
         // I have edges: an array
         // I am thinking to make an adjacency list??
@@ -14,21 +14,21 @@ class Solution {
             graph.get(u).add(v);
             graph.get(v).add(u);
         }
-        visited.add(source);
+        visited[source] = 1;
         dfs(source, visited, graph);
-        return visited.contains(destination);
+        return visited[destination] == 1;
 
     }
-    private void dfs(int source, Set<Integer> visited, Map<Integer, List<Integer>> graph){
+    private void dfs(int source, int[] visited, Map<Integer, List<Integer>> graph){
         // getting the neighbors of the source node and running dfs on it
         if(graph.get(source) == null){
             return;
         }
         for(Integer neighbor: graph.get(source)){
             if(neighbor != null){
-                if(!visited.contains(neighbor)){
-                visited.add(neighbor);
-                dfs(neighbor, visited, graph);
+                if(visited[neighbor] == 0){
+                    visited[neighbor] = 1;
+                    dfs(neighbor, visited, graph);
             }
         }
             
