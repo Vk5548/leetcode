@@ -6,8 +6,8 @@ class Solution {
         for(int[] edge: prerequisites){
             int a = edge[0];
             int b = edge[1]; // to be accomplished before
-            graph.putIfAbsent(b, new ArrayList<>());
-            graph.get(b).add(a);
+            graph.putIfAbsent(a, new ArrayList<>());
+            graph.get(a).add(b);
         }// graph made
         // if all the courses are possible?
          // how do we know which node to start from?
