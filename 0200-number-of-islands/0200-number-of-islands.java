@@ -1,46 +1,38 @@
 class Solution {
     int m, n;
-    boolean[][] visited;
-    int[][] directions = new int[][]{{0, 1}, {0, -1}, {-1, 0}, {1, 0}}; 
+    int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    int[][] seen;
     public int numIslands(char[][] grid) {
-        // so each i, j is a node and they are connected:
-        m = grid.length;
-        n = grid[0].length;
-        
-        // a similar matrix to see : if nodes are visited:
-        visited = new boolean[m][n];
-        int ans = 0;
-        for(int row = 0; row < m; row++){
-            for(int col = 0; col < n; col++){
-                if(grid[row][col] == '1' && !visited[row][col]){
-                    //count the every dfs call
-                    ans++;
-                    //mark it visited
-                    visited[row][col] = true;
-                    //traversal call : dfs 
-                    dfs(row, col, grid);
+        m = grid.length; //rows
+        n = grid[0].length; //cols:
+        int result = 0;
+        seen = new int[m][n];
+        //we start dfs ortraverse the matrix and start the dfs from the first land
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(grid[i][j] == '1' && seen[i][j] == 0){
+                    //start dfs
+                    seen[i][j] = 1;
+                    result++;
+                    // grid[i][j] = '0';
+                    dfs(i, j, grid);
                 }
             }
         }
-
-        return ans;
+        return result;
     }
-
-    private boolean isValidIndex(int row, int col){
-        return row >= 0 && row < m && col >= 0 && col < n;
+    private boolean isValid(int x, int y, char[][] grid){
+        return x >= 0 && x < m && y >= 0 && y < n && grid[x][y] == '1';
     }
-    private void dfs(int row, int col, char[][] grid){
-        //visiting all neighbors of current node and running dfs on them
-        for(int[] direction: directions){
-            int nRow = row + direction[0] ;
-            int nCol = col + direction[1];
-
-            if(isValidIndex(nRow, nCol) && grid[nRow][nCol] == '1' && !visited[nRow][nCol]){
-                visited[nRow][nCol] = true;
-                dfs(nRow, nCol, grid);
+    private void dfs(int i , int j, char[][] grid){
+        // we nees to start getting the neighbors
+        for(int[] dircetion : directions){
+            int row = i + dircetion[0], col = j + dircetion[1];
+            if(isValid(row, col, grid) && seen[row][col] == 0){
+                seen[row][col] = 1;
+                
+                dfs(row, col, grid);
             }
-            
-
         }
     }
 }
