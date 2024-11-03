@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Vk5548/leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1833-find-the-highest-altitude](https://github.com/Vk5548/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Vk5548/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Vk5548/leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/Vk5548/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -182,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Vk5548/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1297-maximum-number-of-balloons](https://github.com/Vk5548/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Vk5548/leetcode/tree/master/2421-maximum-number-of-pairs-in-array) |
 ## Heap (Priority Queue)
 |  |
@@ -440,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0502-ipo](https://github.com/Vk5548/leetcode/tree/master/0502-ipo) |
+| [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
