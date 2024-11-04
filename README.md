@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0270-closest-binary-search-tree-value](https://github.com/Vk5548/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0278-first-bad-version](https://github.com/Vk5548/leetcode/tree/master/0278-first-bad-version) |
+| [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
 | [0658-find-k-closest-elements](https://github.com/Vk5548/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/Vk5548/leetcode/tree/master/0792-binary-search) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Vk5548/leetcode/tree/master/1321-get-equal-substrings-within-budget) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Bit Manipulation
