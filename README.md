@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Vk5548/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0502-ipo](https://github.com/Vk5548/leetcode/tree/master/0502-ipo) |
 | [0658-find-k-closest-elements](https://github.com/Vk5548/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0744-network-delay-time](https://github.com/Vk5548/leetcode/tree/master/0744-network-delay-time) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Vk5548/leetcode/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/Vk5548/leetcode/tree/master/0744-network-delay-time) |
 | [0871-keys-and-rooms](https://github.com/Vk5548/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/Vk5548/leetcode/tree/master/0904-leaf-similar-trees) |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/Vk5548/leetcode/tree/master/0744-network-delay-time) |
 | [0871-keys-and-rooms](https://github.com/Vk5548/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0945-snakes-and-ladders](https://github.com/Vk5548/leetcode/tree/master/0945-snakes-and-ladders) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Vk5548/leetcode/tree/master/0210-course-schedule-ii) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Vk5548/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/Vk5548/leetcode/tree/master/0744-network-delay-time) |
 | [0871-keys-and-rooms](https://github.com/Vk5548/leetcode/tree/master/0871-keys-and-rooms) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Vk5548/leetcode/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Vk5548/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -504,4 +508,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/Vk5548/leetcode/tree/master/0278-first-bad-version) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Vk5548/leetcode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
