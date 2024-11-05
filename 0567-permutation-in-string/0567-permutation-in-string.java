@@ -26,16 +26,16 @@ class Solution {
         {
             if(matches == 26) // if all letters are present in both substring
                 return true;
-            int k = s2.charAt(right) - 'a';
-            copyCount[k]++;
+            int k = s2.charAt(right) - 'a';// current chraacter int val
+            copyCount[k]++; // increasing the frequency
             if(count[k] == copyCount[k])
                 matches++;
-            if(count[k] + 1 == copyCount[k])
+            if(count[k] + 1 == copyCount[k]) // if value unmatched after the change
                 matches--;
 
             k = s2.charAt(left) - 'a';
-            copyCount[k]--;
-            if(count[k] == copyCount[k])
+            copyCount[k]--; //decreasing the window
+            if(count[k] == copyCount[k]) //checking the same thing, if the value unmatched after the chane
                 matches++;
              if(count[k] - 1 == copyCount[k])
                 matches--;
