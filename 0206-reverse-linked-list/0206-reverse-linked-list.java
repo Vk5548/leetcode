@@ -10,17 +10,16 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode curr = head;
-        ListNode prev = null;
+       if(head == null || head.next == null){
+        return head;
+       }
 
-        while(curr != null){
-            //store the next ListNode
-            ListNode nextNode = curr.next;
-            //assign the current node's next to its previous node
-            curr.next = prev;
-            prev = curr;
-            curr = nextNode;
-        }
-        return prev;
+       ListNode newHead = reverseList(head.next); // reaching end recursively
+
+       //if head's next is not null
+       //reverse the link
+       head.next.next = head; //make the new link in the opposite direction,
+       head.next = null; //destroy the old linkreturn 
+       return newHead;
     }
 }
