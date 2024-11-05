@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vk5548/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Vk5548/leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Vk5548/leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Vk5548/leetcode/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/Vk5548/leetcode/tree/master/0079-word-search) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Vk5548/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
 | [0392-is-subsequence](https://github.com/Vk5548/leetcode/tree/master/0392-is-subsequence) |
 | [0487-max-consecutive-ones-ii](https://github.com/Vk5548/leetcode/tree/master/0487-max-consecutive-ones-ii) |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vk5548/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Vk5548/leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Vk5548/leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Vk5548/leetcode/tree/master/0046-permutations) |
 | [0052-n-queens-ii](https://github.com/Vk5548/leetcode/tree/master/0052-n-queens-ii) |
