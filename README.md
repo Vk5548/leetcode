@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Vk5548/leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Vk5548/leetcode/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/Vk5548/leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Vk5548/leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Vk5548/leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Vk5548/leetcode/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/Vk5548/leetcode/tree/master/0048-rotate-image) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Vk5548/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Vk5548/leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Vk5548/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Vk5548/leetcode/tree/master/0079-word-search) |
