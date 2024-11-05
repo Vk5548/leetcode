@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Vk5548/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0658-find-k-closest-elements](https://github.com/Vk5548/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0682-baseball-game](https://github.com/Vk5548/leetcode/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/Vk5548/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Vk5548/leetcode/tree/master/0724-find-pivot-index) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/Vk5548/leetcode/tree/master/0071-simplify-path) |
 | [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
+| [0682-baseball-game](https://github.com/Vk5548/leetcode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/Vk5548/leetcode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/Vk5548/leetcode/tree/master/0874-backspace-string-compare) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Vk5548/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -295,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Vk5548/leetcode/tree/master/0054-spiral-matrix) |
+| [0682-baseball-game](https://github.com/Vk5548/leetcode/tree/master/0682-baseball-game) |
 | [0874-backspace-string-compare](https://github.com/Vk5548/leetcode/tree/master/0874-backspace-string-compare) |
 ## Queue
 |  |
