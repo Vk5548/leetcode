@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Vk5548/leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1833-find-the-highest-altitude](https://github.com/Vk5548/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -507,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Vk5548/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Vk5548/leetcode/tree/master/0695-max-area-of-island) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Vk5548/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1229-shortest-path-with-alternating-colors](https://github.com/Vk5548/leetcode/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Vk5548/leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Vk5548/leetcode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Vk5548/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Matrix
@@ -615,4 +618,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Vk5548/leetcode/tree/master/0014-longest-common-prefix) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
