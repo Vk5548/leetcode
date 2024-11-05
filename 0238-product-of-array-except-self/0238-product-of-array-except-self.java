@@ -22,12 +22,13 @@ class Solution {
         int[] res = new int[nums.length];
         if(ctr0 == 1){  
             res[idx] = productWithoutZero;
-            
+            nums = new int[nums.length];
+            nums[idx] = productWithoutZero;
         }else{
             for(int i = 0; i < nums.length; i++){
-                res[i] = product/ nums[i];
+                nums[i] = product/ nums[i];
             }
         }
-        return res;
+        return nums;
     }
 }
