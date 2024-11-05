@@ -12,13 +12,11 @@ class Solution {
             if(bp > prices[i] && i != prices.length -1){
                 bp = prices[i];
                 sp = prices[i+1];
-                diff = sp - bp;
-                maxDiff = Math.max(maxDiff, diff);
             }else if(sp < prices[i]){
                 sp = prices[i];
-                diff = sp - bp;
-                maxDiff = Math.max(diff, maxDiff);
             }
+            diff = sp - bp;
+            maxDiff = Math.max(maxDiff, diff);
         }
 
         return maxDiff > 0 ? maxDiff : 0;
