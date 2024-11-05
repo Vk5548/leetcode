@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Vk5548/leetcode/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Vk5548/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Vk5548/leetcode/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/Vk5548/leetcode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Vk5548/leetcode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Vk5548/leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Vk5548/leetcode/tree/master/0046-permutations) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Vk5548/leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Vk5548/leetcode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vk5548/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/Vk5548/leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/Vk5548/leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Vk5548/leetcode/tree/master/0138-copy-list-with-random-pointer) |
@@ -499,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Vk5548/leetcode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Vk5548/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Vk5548/leetcode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/Vk5548/leetcode/tree/master/0074-search-a-2d-matrix) |
