@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Vk5548/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
+| [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Hash Table
 |  |
 | ------- |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1321-get-equal-substrings-within-budget](https://github.com/Vk5548/leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
+| [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## String
 |  |
 | ------- |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -559,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -622,4 +626,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+## Number Theory
+|  |
+| ------- |
+| [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 <!---LeetCode Topics End-->
