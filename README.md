@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Vk5548/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Vk5548/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1321-get-equal-substrings-within-budget](https://github.com/Vk5548/leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Vk5548/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Vk5548/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
