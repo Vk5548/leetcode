@@ -18,6 +18,7 @@ impl Solution {
         //we will need heap and max-heap at that because, we need
         //minimum number of operations 
         let mut heap = BinaryHeap::new();
+        
         let mut sum = 0.0; // need to use f64, floating-point to get to the solution
         
 
@@ -29,6 +30,8 @@ impl Solution {
         let required_val = sum/2.0;
 
         let epsilon = 1e-6; // or any small positive number 
+        //Avoids False Positives: By allowing for a tiny margin (epsilon), we prevent the loop 
+        //from running additional iterations due to minuscule differences.
 
         while sum - required_val > epsilon{
             if let Some(FloatWrapper(val)) = heap.pop(){ // will return max value, we half the avle and add it back to the heap 
