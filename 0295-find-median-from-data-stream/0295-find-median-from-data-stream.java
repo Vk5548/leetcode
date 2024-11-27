@@ -14,24 +14,16 @@ class MedianFinder {
         // Step 1: Add to leftHalf first
         leftHalf.offer(num);
 
-        // Step 2: Balance by moving the largest from leftHalf to rightHalf if needed
-        if (!leftHalf.isEmpty() && !rightHalf.isEmpty() && leftHalf.peek() > rightHalf.peek()) {
-            rightHalf.offer(leftHalf.poll());
-        }
-
-        // Step 3: Ensure leftHalf has at most one more element than rightHalf
-        if (leftHalf.size() > rightHalf.size() + 1) {
-            rightHalf.offer(leftHalf.poll());
-        } else if (rightHalf.size() > leftHalf.size()) {
-            leftHalf.offer(rightHalf.poll());
+        rightHalf.add(leftHalf.remove());
+        if(rightHalf.size() > leftHalf.size()){
+            leftHalf.add(rightHalf.remove());
         }
     }
 
     public double findMedian() {
         if (leftHalf.size() > rightHalf.size()) {
             return leftHalf.peek();
-        } else {
-            return (leftHalf.peek() + rightHalf.peek()) / 2.0;
-        }
+        } 
+        return (leftHalf.peek() + rightHalf.peek()) / 2.0;
     }
 }
