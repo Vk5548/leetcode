@@ -5,7 +5,7 @@ class Solution {
             int d1 = n1[0] * n1[0] + n1[1] * n1[1];
             int d2 = n2[0] * n2[0] + n2[1] * n2[1];
             return d2 - d1; 
-        });
+        }); // max-heap
 
         for(int[] point: points){
             heap.add(point);
