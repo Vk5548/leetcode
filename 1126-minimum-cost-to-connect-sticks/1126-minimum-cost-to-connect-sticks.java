@@ -1,5 +1,6 @@
 class Solution {
     public int connectSticks(int[] sticks) {
+        if (sticks.length == 1) return 0;
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for(int len : sticks){
             pq.add(len);
