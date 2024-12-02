@@ -1,64 +1,42 @@
+use std::collections::BinaryHeap;
+use std::cmp::Reverse;
+
 impl Solution {
     pub fn smallest_range(nums: Vec<Vec<i32>>) -> Vec<i32> {
-        //brute force way;
-        //merge all the list in one to start with
-        
-        //edge cases
         if nums.is_empty() || nums.iter().any(|list| list.is_empty()){
             return vec![];
         }
-        let mut one_list = vec![];
-        
+        let mut min_heap = BinaryHeap::new(); // does the lazy allocation
+        let mut max_so_far = i32::MIN;
 
-        //flatten the lists into (value, index) pairs
-        for (index, list) in nums.iter().enumerate(){ //itearting over lists of lists
-            for &num in list{ // then itearting over particular list
-                one_list.push((num, index));
+        //inserting the first elements from every list;
+        for (i, list) in nums.iter().enumerate(){ // will give us the idx and the list at that idx
+            if !list.is_empty(){
+                min_heap.push(Reverse((list[0], i, 0))); //val, list_idx, ele_idx
+                //also tracking the max_so_far
+                max_so_far = max_so_far.max(list[0]);
+            }
+        }// pre-processing here is done; now we need to carry out the process until one of the list exhausts
+
+        let mut best_range = (-1000_000, 1000_000); //STore the best range found, initializing it
+
+        //Process the heap until one list is exhausted
+        while let Some(Reverse((val, list_idx, ele_idx))) = min_heap.pop(){ //fetching the min value
+            // getting current range
+            let curr_range = max_so_far - val;
+            if curr_range < best_range.1 - best_range.0 || (curr_range == best_range.1 - best_range.0 && val < best_range.0){
+                best_range = (val, max_so_far);
+            } // updating if we found the valid smaller range
+
+            //adding the next element from the list that was popped out
+            if ele_idx + 1 < nums[list_idx].len(){
+                min_heap.push(Reverse((nums[list_idx][ele_idx + 1], list_idx, ele_idx + 1)));
+                max_so_far = max_so_far.max(nums[list_idx][ele_idx + 1]);
+            }else{
+                break;
             }
         }
 
-        //sorting the list based on the first value i.e the value and not the list number
-        one_list.sort_unstable_by_key(|&(val, _)| val); //meaning sorted by first value in tuple
-
-        //To have the sliding window to give the minimum smallest_range
-
-        // let mut count_map = HashMap::new(); 
-
-        // to see or I can use an array, so let me start with the array
-        // we don't know how many lists in the list
-        let num_lists = nums.len();
-        let mut if_all_lists = vec![0; num_lists + 1];
-        let mut left = 0;
-        let mut right = 0;
-        let mut unique_count = 0;
-        let mut res = vec![one_list[0].0, one_list[one_list.len() - 1].0];
-
-        while right < one_list.len(){
-            let (_, idx) = one_list[right];
-            if_all_lists[idx] += 1;
-            if if_all_lists[idx] == 1{
-                unique_count += 1;
-            }
-
-            while unique_count == num_lists{ //meaning we have at least 1 number from every list
-                let curr_range = one_list[right].0 - one_list[left].0;
-
-                if curr_range < res[1] - res[0] || (curr_range == res[1] - res[0] && one_list[left].0 < res[0]) {
-                    res = vec![one_list[left].0, one_list[right].0];
-                }
-
-                //shrinking the current window from left
-                let (_, left_list_idx) = one_list[left];
-                if_all_lists[left_list_idx] -= 1;
-
-                if if_all_lists[left_list_idx] == 0{
-                    unique_count -= 1;
-                }
-
-                left += 1;
-            }
-            right += 1;
-        }
-        res
+        vec![best_range.0, best_range.1]
     }
 }
