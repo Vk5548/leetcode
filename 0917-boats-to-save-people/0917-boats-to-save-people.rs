@@ -9,7 +9,7 @@ impl Solution {
         let mut left = 0;
 
         while left < right {
-            num_boats += 1;
+            num_boats += 1; //regardless, because heavier are gonna go anyways
             if people[left] + people[right] <= limit{ //paired
                 left += 1;
             }
