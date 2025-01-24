@@ -5,7 +5,6 @@ impl Solution {
         //now iterate through the box_types
         let mut num_boxes = 0;
         let mut num_units = 0;
-        print!("{:?}", box_types);
         for i in 0..box_types.len(){
            
             if num_boxes + box_types[i][0] <= truck_size { //all boxes can be added
@@ -17,14 +16,9 @@ impl Solution {
                 num_boxes += balance;
                 num_units += balance * box_types[i][1];
                 break;
-            }else{//no more addition
-                break;
             }
-             println!("num_boxes after everi iter {}", num_boxes);
-            println!("num_units after everi iter {}", num_units);
+            
         }
-         println!("num_boxes after everi iter {}", num_boxes);
-            println!("num_units after everi iter {}", num_units);
         num_units
     }
 }
