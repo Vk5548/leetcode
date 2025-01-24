@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1829-maximum-units-on-a-truck](https://github.com/Vk5548/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/Vk5548/leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Vk5548/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/Vk5548/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1829-maximum-units-on-a-truck](https://github.com/Vk5548/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -608,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1126-minimum-cost-to-connect-sticks](https://github.com/Vk5548/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1829-maximum-units-on-a-truck](https://github.com/Vk5548/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Vk5548/leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Vk5548/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
