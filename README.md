@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/Vk5548/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/Vk5548/leetcode/tree/master/1127-last-stone-weight) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/Vk5548/leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/Vk5548/leetcode/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Vk5548/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/Vk5548/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1098-largest-unique-number](https://github.com/Vk5548/leetcode/tree/master/1098-largest-unique-number) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/Vk5548/leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1354-find-players-with-zero-or-one-losses](https://github.com/Vk5548/leetcode/tree/master/1354-find-players-with-zero-or-one-losses) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/Vk5548/leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -608,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Vk5548/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0917-boats-to-save-people](https://github.com/Vk5548/leetcode/tree/master/0917-boats-to-save-people) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/Vk5548/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/Vk5548/leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1829-maximum-units-on-a-truck](https://github.com/Vk5548/leetcode/tree/master/1829-maximum-units-on-a-truck) |
