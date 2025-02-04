@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1829-maximum-units-on-a-truck](https://github.com/Vk5548/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1833-find-the-highest-altitude](https://github.com/Vk5548/leetcode/tree/master/1833-find-the-highest-altitude) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1961-maximum-ice-cream-bars](https://github.com/Vk5548/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Vk5548/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
