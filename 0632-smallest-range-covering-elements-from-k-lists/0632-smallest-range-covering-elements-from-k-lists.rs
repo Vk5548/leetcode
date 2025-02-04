@@ -1,42 +1,52 @@
 use std::collections::BinaryHeap;
-use std::cmp::Reverse;
+use std::cmp::{min, max, Reverse};
 
 impl Solution {
     pub fn smallest_range(nums: Vec<Vec<i32>>) -> Vec<i32> {
-        if nums.is_empty() || nums.iter().any(|list| list.is_empty()){
-            return vec![];
+        let k = nums.len();
+        
+        // Track current position in each list
+        let mut indexes = vec![0; k];
+        
+        // Min heap to track current smallest element from each list
+        let mut heap = BinaryHeap::new();
+        
+        // Track max value seen so far
+        let mut max_val = i32::MIN;
+        
+        // Initial population of heap
+        for (i, list) in nums.iter().enumerate() {
+            let val = list[0];
+            max_val = max(max_val, val);
+            heap.push(Reverse((val, i)));
         }
-        let mut min_heap = BinaryHeap::new(); // does the lazy allocation
-        let mut max_so_far = i32::MIN;
-
-        //inserting the first elements from every list;
-        for (i, list) in nums.iter().enumerate(){ // will give us the idx and the list at that idx
-            if !list.is_empty(){
-                min_heap.push(Reverse((list[0], i, 0))); //val, list_idx, ele_idx
-                //also tracking the max_so_far
-                max_so_far = max_so_far.max(list[0]);
+        
+        let mut range_start = 0;
+        let mut range_end = i32::MAX;
+        
+        loop {
+            let Reverse((min_val, list_idx)) = heap.pop().unwrap();
+            
+            // Update range if current range is smaller
+            if max_val - min_val < range_end - range_start {
+                range_start = min_val;
+                range_end = max_val;
             }
-        }// pre-processing here is done; now we need to carry out the process until one of the list exhausts
-
-        let mut best_range = (-1000_000, 1000_000); //STore the best range found, initializing it
-
-        //Process the heap until one list is exhausted
-        while let Some(Reverse((val, list_idx, ele_idx))) = min_heap.pop(){ //fetching the min value
-            // getting current range
-            let curr_range = max_so_far - val;
-            if curr_range < best_range.1 - best_range.0 || (curr_range == best_range.1 - best_range.0 && val < best_range.0){
-                best_range = (val, max_so_far);
-            } // updating if we found the valid smaller range
-
-            //adding the next element from the list that was popped out
-            if ele_idx + 1 < nums[list_idx].len(){
-                min_heap.push(Reverse((nums[list_idx][ele_idx + 1], list_idx, ele_idx + 1)));
-                max_so_far = max_so_far.max(nums[list_idx][ele_idx + 1]);
-            }else{
+            
+            // Move to next element in this list
+            indexes[list_idx] += 1;
+            
+            // If any list is exhausted, we're done
+            if indexes[list_idx] == nums[list_idx].len() {
                 break;
             }
+            
+            // Get next value and update max
+            let next_val = nums[list_idx][indexes[list_idx]];
+            max_val = max(max_val, next_val);
+            heap.push(Reverse((next_val, list_idx)));
         }
-
-        vec![best_range.0, best_range.1]
+        
+        vec![range_start, range_end]
     }
 }
