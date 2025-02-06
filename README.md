@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/Vk5548/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2128-reverse-prefix-of-word](https://github.com/Vk5548/leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Vk5548/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/Vk5548/leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Vk5548/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Binary Search
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1960-check-if-the-sentence-is-pangram](https://github.com/Vk5548/leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2128-reverse-prefix-of-word](https://github.com/Vk5548/leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Vk5548/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/Vk5548/leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Sliding Window
 |  |
 | ------- |
@@ -655,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Vk5548/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/Vk5548/leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Divide and Conquer
 |  |
