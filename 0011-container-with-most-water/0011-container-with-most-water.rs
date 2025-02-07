@@ -9,12 +9,11 @@ impl Solution {
             let breadth = right - left;
             let curr_height = height[left].min(height[right]);
             curr = breadth as i32 * curr_height;
-            println!("area {}", curr);
             max_area = max_area.max(curr);
-            while height[left] <= curr_height && left < right{
+            if height[left] <= curr_height && left < right{
                 left += 1;
             }
-            while height[right] <= curr_height && left < right{
+            if height[right] <= curr_height && left < right{
                 right -= 1;
             }
         }
