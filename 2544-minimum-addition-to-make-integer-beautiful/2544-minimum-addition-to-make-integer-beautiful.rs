@@ -1,6 +1,6 @@
 impl Solution {
     pub fn make_integer_beautiful(n: i64, target: i32) -> i64 {
-        let mut digits: Vec<u8> = n.to_string().chars().map(|d| d.to_digit(10).unwrap() as u8).collect();
+        // let mut digits: Vec<u8> = n.to_string().chars().map(|d| d.to_digit(10).unwrap() as u8).collect();
         // got the digit array
 
         //getting the sum of digits using a closure
@@ -8,8 +8,6 @@ impl Solution {
             // digits.iter().map(|&d| d as i64).sum()
             arr.to_string().chars().map(|d| d.to_digit(10).unwrap() as i64).sum()
         };
-
-
 
         if sum_digits(n) <= target as i64{
             return 0;
