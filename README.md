@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1303-minimum-moves-to-reach-target-score](https://github.com/Vk5548/leetcode/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/Vk5548/leetcode/tree/master/2279-maximum-split-of-positive-even-integers) |
@@ -655,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/Vk5548/leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/Vk5548/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/Vk5548/leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
+| [1303-minimum-moves-to-reach-target-score](https://github.com/Vk5548/leetcode/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
 | [1464-reduce-array-size-to-the-half](https://github.com/Vk5548/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
