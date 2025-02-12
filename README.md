@@ -286,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/Vk5548/leetcode/tree/master/2279-maximum-split-of-positive-even-integers) |
+| [2544-minimum-addition-to-make-integer-beautiful](https://github.com/Vk5548/leetcode/tree/master/2544-minimum-addition-to-make-integer-beautiful) |
 | [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Bit Manipulation
 |  |
@@ -672,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2475-largest-palindromic-number](https://github.com/Vk5548/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2487-optimal-partition-of-string](https://github.com/Vk5548/leetcode/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Vk5548/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2544-minimum-addition-to-make-integer-beautiful](https://github.com/Vk5548/leetcode/tree/master/2544-minimum-addition-to-make-integer-beautiful) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Vk5548/leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Divide and Conquer
