@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/Vk5548/leetcode/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
 ## Bit Manipulation
 |  |
@@ -577,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Vk5548/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Vk5548/leetcode/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/Vk5548/leetcode/tree/master/0113-path-sum-ii) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/Vk5548/leetcode/tree/master/2279-maximum-split-of-positive-even-integers) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -661,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1961-maximum-ice-cream-bars](https://github.com/Vk5548/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Vk5548/leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/Vk5548/leetcode/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Vk5548/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
