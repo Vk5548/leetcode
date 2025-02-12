@@ -17,7 +17,7 @@ impl Solution {
 
         // if there is aremainder remaining
         if let Some(last_num) = res.last_mut(){
-            *last_num += remainder;
+            *last_num += remainder; //making it unique
         }
         res
     }
