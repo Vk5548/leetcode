@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2350-find-closest-number-to-zero](https://github.com/Vk5548/leetcode/tree/master/2350-find-closest-number-to-zero) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Vk5548/leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Vk5548/leetcode/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/Vk5548/leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/Vk5548/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/Vk5548/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2128-reverse-prefix-of-word](https://github.com/Vk5548/leetcode/tree/master/2128-reverse-prefix-of-word) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Vk5548/leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Vk5548/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Vk5548/leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Vk5548/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Vk5548/leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2634-minimum-common-value](https://github.com/Vk5548/leetcode/tree/master/2634-minimum-common-value) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Vk5548/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/Vk5548/leetcode/tree/master/2716-prime-subtraction-operation) |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Vk5548/leetcode/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Vk5548/leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/Vk5548/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Vk5548/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
