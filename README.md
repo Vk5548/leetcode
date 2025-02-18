@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Vk5548/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1391-counting-elements](https://github.com/Vk5548/leetcode/tree/master/1391-counting-elements) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Vk5548/leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Vk5548/leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1464-reduce-array-size-to-the-half](https://github.com/Vk5548/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Vk5548/leetcode/tree/master/1706-min-cost-to-connect-all-points) |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/Vk5548/leetcode/tree/master/0392-is-subsequence) |
 | [0487-max-consecutive-ones-ii](https://github.com/Vk5548/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0542-01-matrix](https://github.com/Vk5548/leetcode/tree/master/0542-01-matrix) |
+| [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Vk5548/leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 ## Stack
 |  |
 | ------- |
@@ -661,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/Vk5548/leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/Vk5548/leetcode/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1448-maximum-69-number](https://github.com/Vk5548/leetcode/tree/master/1448-maximum-69-number) |
+| [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Vk5548/leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1464-reduce-array-size-to-the-half](https://github.com/Vk5548/leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/Vk5548/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1782-smallest-string-with-a-given-numeric-value](https://github.com/Vk5548/leetcode/tree/master/1782-smallest-string-with-a-given-numeric-value) |
