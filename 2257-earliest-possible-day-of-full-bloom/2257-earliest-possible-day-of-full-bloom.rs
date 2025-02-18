@@ -15,12 +15,11 @@ impl Solution {
         let mut current_plant = 0;
         let mut max_bloom_day = 0;
 
-        while current_plant < n{
-            //plant the current plant
-            num_days += combined[current_plant][1]; //planted
-            let curr_bloom_day = num_days + combined[current_plant][0]; //bloom time
-            max_bloom_day = max_bloom_day.max(curr_bloom_day);
-            current_plant += 1;
+        for row in combined.iter(){
+            if let [grow, plant] = row.as_slice(){
+                num_days += plant;
+                max_bloom_day = max_bloom_day.max(num_days + grow);
+            }
         }
         max_bloom_day
     }
