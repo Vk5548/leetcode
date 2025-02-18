@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Vk5548/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Vk5548/leetcode/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/Vk5548/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2350-find-closest-number-to-zero](https://github.com/Vk5548/leetcode/tree/master/2350-find-closest-number-to-zero) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1961-maximum-ice-cream-bars](https://github.com/Vk5548/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Vk5548/leetcode/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Vk5548/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Vk5548/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/Vk5548/leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -666,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1961-maximum-ice-cream-bars](https://github.com/Vk5548/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Vk5548/leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2245-destroying-asteroids](https://github.com/Vk5548/leetcode/tree/master/2245-destroying-asteroids) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Vk5548/leetcode/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/Vk5548/leetcode/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Vk5548/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/Vk5548/leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
