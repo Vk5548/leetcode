@@ -3,19 +3,20 @@ impl Solution {
         nums.sort_unstable();
         //calculate the running sum : in-place
 
-        for i in 1..nums.len(){
-            nums[i] += nums[i-1];
-        }// will give me the running sum
+        // for i in 1..nums.len(){
+        //     nums[i] += nums[i-1];
+        // }// will give me the running sum
 
-        let mut res = vec![0; queries.len()];
+        nums = nums.into_iter().scan(0, |acc, num|{
+            *acc += num;
+            Some(*acc)
+        }).collect();
 
         let length = nums.len();
 
-        //iterate through queries
-        for (i, &query) in queries.iter().enumerate(){
-            res[i] = Self::binary_search_helper(query, length, &nums);
-        }
-        res
+       
+
+        queries.into_iter().map(|q| Self::binary_search_helper(q, length, &nums)).collect()
     }
 
     fn binary_search_helper(target: i32, length : usize, nums: &[i32]) -> i32{
