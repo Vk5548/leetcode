@@ -1,16 +1,16 @@
-use std::collections::HashSet;
 impl Solution {
     pub fn find_different_binary_string(nums: Vec<String>) -> String {
-        // get the set and length
-        let n = nums.len();
-        let set: HashSet<String> = nums.into_iter().collect();
-
-        for i in 0..=n{
-            let candidate = format!("{:0width$b}", i, width = n);
-            if !set.contains(&candidate){
-                return candidate;
+        let mut res: Vec<char> = Vec::new();
+        for (i ,string) in nums.iter().enumerate(){
+            //converting the ith character of this string
+            //get the ith character of thsi string
+            let c = string.chars().nth(i).unwrap();
+            if c == '0'{
+                res.push('1');
+            }else{
+                res.push('0');
             }
         }
-        unreachable!("there has to be a string which is not in the set as we are iterating through n + 1");
+        res.into_iter().collect::<String>()
     }
 }
