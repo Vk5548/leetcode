@@ -10,7 +10,7 @@ impl Solution {
         while left < right{
             let mid = left + (right - left) / 2;
             if Self::check(&piles, mid, h){
-                println!("{}", mid);
+                // println!("{}", mid);
                 right = mid;
             } else{
                 left = mid + 1;
