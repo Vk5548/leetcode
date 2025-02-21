@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1961-maximum-ice-cream-bars](https://github.com/Vk5548/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Vk5548/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2000-minimum-speed-to-arrive-on-time](https://github.com/Vk5548/leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Vk5548/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Vk5548/leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2107-find-unique-binary-string](https://github.com/Vk5548/leetcode/tree/master/2107-find-unique-binary-string) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1149-intersection-of-three-sorted-arrays](https://github.com/Vk5548/leetcode/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Vk5548/leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1753-path-with-minimum-effort](https://github.com/Vk5548/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [2000-minimum-speed-to-arrive-on-time](https://github.com/Vk5548/leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Vk5548/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Vk5548/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Vk5548/leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
