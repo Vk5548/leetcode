@@ -3,12 +3,12 @@ class Solution {
         int right = Arrays.stream(nums).max().getAsInt();
         int left = 1;
         int ctr = 0;
-        while (left < right){
+        while (left <= right){
             int mid = left + (right - left)/2;
             System.out.print("counter :  "+ ctr++);
             System.out.println(mid);
             if(check(mid, threshold, nums)){
-                right = mid;
+                right = mid - 1;
             }else{
                 left = mid + 1;
             }
