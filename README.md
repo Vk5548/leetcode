@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Vk5548/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Vk5548/leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Vk5548/leetcode/tree/master/1321-get-equal-substrings-within-budget) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Vk5548/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Vk5548/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1666-make-the-string-great](https://github.com/Vk5548/leetcode/tree/master/1666-make-the-string-great) |
 | [1782-smallest-string-with-a-given-numeric-value](https://github.com/Vk5548/leetcode/tree/master/1782-smallest-string-with-a-given-numeric-value) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Vk5548/leetcode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/Vk5548/leetcode/tree/master/0874-backspace-string-compare) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Vk5548/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Vk5548/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1666-make-the-string-great](https://github.com/Vk5548/leetcode/tree/master/1666-make-the-string-great) |
 ## Simulation
 |  |
