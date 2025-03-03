@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Vk5548/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Vk5548/leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Vk5548/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Vk5548/leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/Vk5548/leetcode/tree/master/0409-longest-palindrome) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/Vk5548/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Vk5548/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/Vk5548/leetcode/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/Vk5548/leetcode/tree/master/0502-ipo) |
@@ -460,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Vk5548/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/Vk5548/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -496,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Vk5548/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/Vk5548/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Vk5548/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vk5548/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -534,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Vk5548/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Vk5548/leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0226-invert-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Vk5548/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vk5548/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -577,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Vk5548/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/Vk5548/leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0543-diameter-of-binary-tree) |
