@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Vk5548/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Vk5548/leetcode/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Vk5548/leetcode/tree/master/0392-is-subsequence) |
+| [0408-valid-word-abbreviation](https://github.com/Vk5548/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0455-assign-cookies](https://github.com/Vk5548/leetcode/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/Vk5548/leetcode/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/Vk5548/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/Vk5548/leetcode/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/Vk5548/leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Vk5548/leetcode/tree/master/0392-is-subsequence) |
+| [0408-valid-word-abbreviation](https://github.com/Vk5548/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0409-longest-palindrome](https://github.com/Vk5548/leetcode/tree/master/0409-longest-palindrome) |
 | [0567-permutation-in-string](https://github.com/Vk5548/leetcode/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/Vk5548/leetcode/tree/master/0692-top-k-frequent-words) |
