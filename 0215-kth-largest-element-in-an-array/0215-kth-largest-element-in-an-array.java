@@ -20,6 +20,8 @@ take the resultant array od mazimum size ofnums
 //T: O(n) + O(size of the res array)
 //S: O(max-size of [nums[i]])
 
+//I/p : [3, 1, 4, 5,6,6,7, 8], k = 2
+
 //HashhMAp, : num: freq
 solv eit suing sorted hashmap 
 */
@@ -30,9 +32,9 @@ class Solution {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>((n1, n2) -> n1 - n2);
 
         for(int num : nums){
-            minHeap.offer(num);
+            minHeap.offer(num); //    7, 8
 
-            if(minHeap.size() > k){
+            if(minHeap.size() > k){  // 1 popped,3, 4, 5, 6, 6
                 minHeap.poll();
             }
         }
