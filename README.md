@@ -515,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0270-closest-binary-search-tree-value](https://github.com/Vk5548/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Vk5548/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0339-nested-list-weight-sum](https://github.com/Vk5548/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vk5548/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -554,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0226-invert-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/Vk5548/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0339-nested-list-weight-sum](https://github.com/Vk5548/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vk5548/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
