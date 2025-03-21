@@ -10,11 +10,14 @@ x^n = (x*x)^n/2
 n is an int a 32-bit int, meaning I will needlong to handle the ase if is n is the minimum value of 32-buit= -214----8
 Max_int = 214----7
 
-
+ 
 
 */
 class Solution {
     public double myPow(double x, int n) {
+        if(x == 0)
+            return 0;
+        
         return solve(x, (long)n);
     }
     private double solve(double x, long n){
