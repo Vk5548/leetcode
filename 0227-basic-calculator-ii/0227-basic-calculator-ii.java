@@ -1,36 +1,57 @@
+/*
+String s: expr
+integer divi-> 0
+
+CQ: 
+1. Can I assume the string is valid or will I ahve to check the valid
+2. Are there any special characters like parantheses?
+3. I am guessing expres has: +,-,/,*
+
+4 limit to len of expr
+5 so I am guessing num> 0
+6. What anout the value of expression it yields , would I need to use long?
+
+
+A: 1
+USe a stack to calculate vaues for which it includes + aand -
+and calculate the value of *, / on the fly 
+T: O(n)
+S: O(n)
+
+
+A2: 2 stacks
+
+*/
+
 class Solution {
     public int calculate(String s) {
-        if (s.length() == 0 || s == null){
-            return 0;
-        }
-        int num = 0;
-        char op= '+';
         Stack<Integer> stk = new Stack<>();
-        for(int i = 0; i < s.length(); i++){
-            //check if its digit
-            if(Character.isDigit(s.charAt(i))){
-                num = num * 10 + (s.charAt(i) - '0');
-            } // got the digit or the number building up
-
-            // of if the character is op or we at the end of the String
-            if((!Character.isDigit(s.charAt(i)) && s.charAt(i) != ' ') || i == s.length() - 1){
-                if (op == '+'){
-                    stk.push(num);
-                }else if(op == '-'){
-                    stk.push(-num);
-                }else if(op == '*'){
-                    //get the last num
+        int len = s.length();
+        int num = 0;
+        char op = '+';
+        for(int i =0; i < len; i++){
+            char c = s.charAt(i);
+            //numbers can be 2 digit or more
+            if (Character.isDigit(c)){
+                //accumulate all the digits
+                num = num * 10 + c - '0';
+            }
+            if( (!Character.isDigit(c) && c != ' ') || i == len - 1){
+                if(op == '*'){
                     stk.push(stk.pop() * num);
-                }else{
+                }else if( op == '/'){
                     stk.push(stk.pop() / num);
+                }else if( op == '+'){
+                    stk.push(num);
+                }else{
+                    stk.push(-num);
                 }
-                // reinitialize num to 0
                 num = 0;
-                op = s.charAt(i);
+                op = c;
             }
         }
         int res = 0;
-        while(!stk.isEmpty()){
+        while(stk.size() > 0){
             res += stk.pop();
         }
         return res;
