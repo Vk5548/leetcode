@@ -27,17 +27,12 @@ O:
 
   */
 class Solution {
-    int total = 0;
     public int rangeSumBST(TreeNode root, int low, int high) {
         if(root == null){
             return 0;
         }
-
-        // { // a valid node
-        //     total += root.val; //addition
-        // }
         int left = 0, right = 0;
-        if(root.val > low){
+        if(root.val > low){ // only traverse when absoulytely needed
             left = rangeSumBST(root.left, low, high);
         }
         if(root.val < high){
