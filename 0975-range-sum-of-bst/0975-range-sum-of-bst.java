@@ -13,26 +13,39 @@
  *     }
  * }
  */
+
+ /** 
+ root : bst, low, high
+ sum of all values in the  range [low, high]
+
+ I:                 10
+          8                       16
+      4      9                12      18  
+    3   5                  11    13 17   19
+: low = 7, h = 15: 
+O: 
+
+  */
 class Solution {
+    int total = 0;
     public int rangeSumBST(TreeNode root, int low, int high) {
-        // not to check for null
-        Stack<TreeNode> stk = new Stack<>();
-        stk.push(root);
-        int ans = 0;
-
-        while(!stk.isEmpty()){
-            TreeNode node = stk.pop();
-
-            if(node.val >= low && node.val <= high){
-                ans += node.val;
-            }
-            if(node.val < high && node.right != null){
-                stk.push(node.right);
-            }
-            if(node.val > low && node.left != null){
-                stk.push(node.left);
-            }
+        if(root == null){
+            return 0;
         }
-        return ans;
+
+        // { // a valid node
+        //     total += root.val; //addition
+        // }
+        int left = 0, right = 0;
+        if(root.val > low){
+            left = rangeSumBST(root.left, low, high);
+        }
+        if(root.val < high){
+            right = rangeSumBST(root.right, low, high);
+        }
+        if(root.val >= low && root.val <= high)
+            return root.val + left + right;
+        return left + right;
+        
     }
 }
