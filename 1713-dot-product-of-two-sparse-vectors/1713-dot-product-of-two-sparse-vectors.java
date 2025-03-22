@@ -16,7 +16,7 @@ class SparseVector {
     public int dotProduct(SparseVector vec) {
         //we iterate through the map and get the 
         int result= 0;
-
+        // if only one of the vector is sparse, we iterate through the map who size is      smaller
         for(Integer key : nonZero.keySet()){
             if(vec.nonZero.containsKey(key)){
                 result += vec.nonZero.get(key) * this.nonZero.get(key);
