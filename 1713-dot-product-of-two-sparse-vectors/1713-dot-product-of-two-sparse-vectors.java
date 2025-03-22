@@ -3,7 +3,7 @@ import java.util.TreeMap;
 
 class SparseVector {
     // how about we store than in hashmap: {idx: num}
-    SortedMap<Integer, Integer> nonZero = new TreeMap<>();
+    Map<Integer, Integer> nonZero = new HashMap<>();
     SparseVector(int[] nums) {
        for(int i = 0; i < nums.length; i++){
           if(nums[i] != 0){
