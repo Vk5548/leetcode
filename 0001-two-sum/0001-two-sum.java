@@ -1,16 +1,32 @@
+
+/**
+nums[], int Target
+return the indixes who sums upto Target
+
+I : [5,2,3,4,1] : target = 8
+CQ: can nums can negative numbers? Y
+-> target may be 0: -5, 5
+Q: will there be a unique sol : Yes
+can what if 2 * nums[i] = target, do we have to ahve different indices?
+
+A: Map<nums[i], i>
+I : 1,2,3,4,5  T = 4, 
+1: 0, target - curr, 4- 3 in map
+O: int[0,2]
+
+T: O(n)
+S: O(n) 
+
+ */
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> check = new HashMap<>();
-        // int[] complementArr = new int[nums.length];
+        Map<Integer, Integer> idxMap = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
-            
-            int complementArr = target - nums[i];  
-            if(check.containsKey(complementArr)){
-                if(i != check.get(complementArr))
-                return new int[]{i, check.get(complementArr)};
+            if(idxMap.containsKey(target - nums[i])){
+                return new int[]{i, idxMap.get(target - nums[i])};
             }
-            check.put(nums[i], i);
+            idxMap.put(nums[i], i);
         }
-        return null;
+        return new int[2];
     }
 }
