@@ -41,7 +41,6 @@ Ec:
 3. 
 */
 class Solution {
-    int result = 0;
     public int sumNumbers(TreeNode root) {
         if (root == null)
             return 0;
