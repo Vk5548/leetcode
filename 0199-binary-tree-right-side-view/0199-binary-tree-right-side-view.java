@@ -48,7 +48,8 @@ class Solution {
                 if(node.right != null){
                     q.offer(node.right);
                 }
-                last = node;
+                if(i == size - 1)
+                    last = node;
             }
             //done traversing teh current level
             res.add(last.val);
