@@ -31,11 +31,10 @@ class Solution {
     int numRows;
     int numCols;
     char[][] board;
-    private boolean ifValid(int r, int c){
+    private boolean ifValid(int r, int c){ // O(1)
         return r >= 0 && r < numRows && c >= 0 && c < numCols;
     }
-
-    private int calculateNumOfMines(int r, int c){
+    private int calculateNumOfMines(int r, int c){ // O(1)
         int numMines = 0;
         for(int i = r-1; i <= r+1; i++){
             for(int j = c-1 ; j <= c+1; j++){
@@ -47,8 +46,9 @@ class Solution {
         return numMines;
     }
 
+    // O(m * n) worst case DFS
     public char[][] updateBoard(char[][] board, int[] click) {
-        if (board.length == 0){
+        if (board.length == 0){ //empty board
             return board;
         }
         this.board = board;
@@ -57,19 +57,20 @@ class Solution {
         updateBoardRecursive(click[0], click[1]);
         return this.board;
     }
+    // O(m * n) worst case DFS; all empty cells visited
     private void updateBoardRecursive(int r, int c){
-        if (board[r][c] == 'M'){
-            board[r][c] = 'X';
+        if (board[r][c] == 'M'){ // O(1)
+            board[r][c] = 'X'; // game over
             return;
         }
-        int numMines = calculateNumOfMines(r, c);
+        int numMines = calculateNumOfMines(r, c); // O(1)
         if (numMines != 0){
-            board[r][c] = (char) (numMines + '0');
-        }else{ //recursive call
+            board[r][c] = (char) (numMines + '0');  // O(1)
+        }else{ //recursive call. : 
             board[r][c] = 'B';
             for(int i = r-1; i <= r+1; i++){
             for(int j = c-1 ; j <= c+1; j++){
-                if(ifValid(i, j) && board[i][j] != 'B'){
+                if(ifValid(i, j) && board[i][j] == 'E'){
                     updateBoardRecursive(i, j);
                 }
             }
