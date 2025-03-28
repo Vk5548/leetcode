@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vk5548/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/Vk5548/leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/Vk5548/leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Vk5548/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Vk5548/leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Vk5548/leetcode/tree/master/0138-copy-list-with-random-pointer) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Vk5548/leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Vk5548/leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Vk5548/leetcode/tree/master/0071-simplify-path) |
+| [0076-minimum-window-substring](https://github.com/Vk5548/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Vk5548/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Vk5548/leetcode/tree/master/0125-valid-palindrome) |
 | [0227-basic-calculator-ii](https://github.com/Vk5548/leetcode/tree/master/0227-basic-calculator-ii) |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Vk5548/leetcode/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Vk5548/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0487-max-consecutive-ones-ii](https://github.com/Vk5548/leetcode/tree/master/0487-max-consecutive-ones-ii) |
