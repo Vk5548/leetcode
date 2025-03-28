@@ -36,12 +36,12 @@ class Solution {
 
             if(tFreq.containsKey(c) && windowFreq.get(c).intValue() == tFreq.get(c).intValue()){
                 formed++;
-            }
+            } // got a avlid substring when formed == required
 
             while(left <= right && formed == required){
                 c = s.charAt(left);
 
-                if(ans[0] == -1 || right - left + 1 < ans[0]){
+                if(ans[0] == -1 || right - left + 1 < ans[0]){ //checking if we get the a lesser value
                     ans[0] = right - left + 1;
                     ans[1] = left;
                     ans[2] = right;
@@ -49,6 +49,7 @@ class Solution {
 
                 //Remove form window
                 windowFreq.put(c, windowFreq.get(c) - 1);
+                // if(windowFreq.get(c) == 0) windowFreq.remove(c);
                 if (tFreq.containsKey(c) && windowFreq.get(c).intValue() < tFreq.get(c).intValue()) {
                     formed--;
                 }
