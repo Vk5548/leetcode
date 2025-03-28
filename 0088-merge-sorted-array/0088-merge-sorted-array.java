@@ -29,9 +29,9 @@ class Solution {
                 nums1[i] = nums2[i];
             }
         }
-        if(nums2.length == 0){//we already have the ans
-            return;
-        }
+        // if(nums2.length == 0){//we already have the ans
+        //     return;
+        // }
         int ptr1 = m - 1, ptr2 = n-1;
         int idx = m + n - 1;
 
