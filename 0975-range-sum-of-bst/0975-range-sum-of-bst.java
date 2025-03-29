@@ -32,10 +32,10 @@ class Solution {
             return 0;
         }
         int left = 0, right = 0;
-        if(root.val > low){ // only traverse when absoulytely needed
+        if(root.val >= low){ // only traverse when absoulytely needed
             left = rangeSumBST(root.left, low, high);
         }
-        if(root.val < high){
+        if(root.val <= high){
             right = rangeSumBST(root.right, low, high);
         }
         if(root.val >= low && root.val <= high)
