@@ -8,35 +8,43 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+ /* 
+ CQ: 
+ 1 can k be 0? an empty list : new ListNode()
+ 2 can be k fit in 32-bit int?
+ 3. every list in the array is guaranteed to be sorted?
+
+
+A: minHeap, to get the lelemnet from each list that goes next and then add another element from the said list
+T: O(nlogk) n: total number of elelmnst from all the list 
+5_000_000
+
+ */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        PriorityQueue<ListNode> heap = new PriorityQueue<>((n1, n2)-> n1.val - n2.val);
-        if(lists.length == 0) {
-            return null;
-        }
-        if(lists.length == 1) {
-            return lists[0];
-        }
+        int k = lists.length;
+        if( k == 0 ) return null;
+        if( k == 1 ) return lists[0];
+        ListNode head = new ListNode(-10001);
+        ListNode sentinel = head; //holder
 
-        //start with all the first node in the heap
-        for(ListNode node : lists){
-            if (node != null) {
-                heap.add(node);
-            }
+        PriorityQueue<ListNode> minHeap = new PriorityQueue<>((n1,n2) -> Integer.compare(n1.val, n2.val));
+        // add all the first element of al k lists
+        for(int i = 0; i < k; i++){
+            if(lists[i] != null)
+                minHeap.offer(lists[i]);
         }
 
-
-        ListNode dummy = new ListNode(0);
-        ListNode curr = dummy;
-        while(!heap.isEmpty()){
-            ListNode node = heap.poll();
-            curr.next = node;
-            curr = curr.next;
-
-            if(node.next != null){
-                heap.add(node.next);
-            }
+        while(!minHeap.isEmpty()){
+            ListNode n = minHeap.poll();
+            head.next = new ListNode(n.val);
+            head = head.next;
+            if(n.next != null)
+                minHeap.offer(n.next);
         }
-        return dummy.next;
+
+        return sentinel.next;
+
     }
 }
