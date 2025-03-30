@@ -48,8 +48,6 @@ class Solution {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
             totalSum += num;
         } // got the fre and the sum
-        int[] modifiedNums = new int[nums.length];
-        int i = 0;
         int res = Integer.MIN_VALUE; 
         for(int x : nums){
             freq.put(x, freq.get(x) - 1); // temporarily remove outlier
