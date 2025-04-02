@@ -15,30 +15,30 @@ CQ: Can strings be empty?
 class Solution {
     public List<List<String>> groupStrings(String[] strings) {
         Map<String, List<String>> map = new HashMap<>();
+        // O(n) : for grouping strings
 
-        for(String str: strings){
+        for(String str: strings){ // O(n)
             //check if //traverse them 
-            int offset = str.charAt(0) - 'a';
-
-            StringBuilder key = new StringBuilder();
-            for(int i = 0; i < str.length(); i++){
-                char c = (char) (str.charAt(i) - offset);
-                if (c < 'a'){
-                    c += 26;
+            int offset = str.charAt(0) - 'a'; // O(1)
+           
+            StringBuilder key = new StringBuilder(); // O(1)
+            for(int i = 0; i < str.length(); i++){ // O(l) ; len of string
+                char c = (char) (str.charAt(i) - offset); // O(1)
+                
+                if (c < 'a'){// wrap around.   // O(1)
+                    c += 26; // made the same character.  // O(1)
                 }
-                key.append(String.valueOf(c));
+                key.append(String.valueOf(c));  // O(1)
             }
-            String keyStr = String.valueOf(key); 
-            if(!map.containsKey(keyStr)){
-                List<String> list = new ArrayList<>();
-                map.put(keyStr, list);
-            }
-            map.get(keyStr).add(str);
+            String keyStr = String.valueOf(key); // O(l)
+            
+            map.putIfAbsent(keyStr, new ArrayList<>()); // O(1)
+            map.get(keyStr).add(str); // O(1)
         }
-        List<List<String>> res = new ArrayList<>();
-        for(String key: map.keySet()){
-            List<String> list = map.get(key);
-            Collections.sort(list);
+        List<List<String>> res = new ArrayList<>();  // O(1)
+        for(String key: map.keySet()){ // O(G); total number of unique keys
+            List<String> list = map.get(key); // O(1)
+            Collections.sort(list); // O(k log k) per group, total O(n log L)
             res.add(list);
         }
 
