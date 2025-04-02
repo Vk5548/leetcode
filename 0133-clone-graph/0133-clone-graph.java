@@ -41,6 +41,6 @@ class Solution {
            copy.neighbors.add(cloneGraph(nbr)); //we also need to add it into the list as well
        }
         
-        return visited.get(node);
+        return copy;
     }
 }
