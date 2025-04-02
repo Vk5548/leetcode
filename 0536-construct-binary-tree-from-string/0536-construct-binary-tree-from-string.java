@@ -41,7 +41,7 @@ class Solution {
     public TreeNode str2tree(String s) {
         if( s== "" || s == null) return null;
         int[] idx = new int[1];
-        return buildTree(s, idx);
+        return buildTree(s, idx); // O(n)
 
         
     }
@@ -57,14 +57,14 @@ class Solution {
             idx[0]++;
         }
 
-        int num = 0;
-        while (idx[0] < s.length() && Character.isDigit(s.charAt(idx[0]))) {
+        int num = 0; // can only be 1 node
+        while (idx[0] < s.length() && Character.isDigit(s.charAt(idx[0]))) { // O(n)
             num = num * 10 + (s.charAt(idx[0]++) - '0');
         }
 
         TreeNode root = new TreeNode(sign * num);
 
-        // Parse left subtree
+        // Parse left subtree // O( subtree size)
         if (idx[0] < s.length() && s.charAt(idx[0]) == '(') {
             idx[0]++; // skip '('
             root.left = buildTree(s, idx);
