@@ -17,28 +17,30 @@ class Node {
     }
 }
 */
-
+/* 
+Graph is connected;
+Adjacency list; deep copy, therefore, as I go, I will need HashMap to store the neoghbors
+and then form the connections in the list
+*/
 class Solution {
-    HashMap<Node, Node> visited = new HashMap<>();
+    Map<Node, Node> visited = new HashMap<>();
     public Node cloneGraph(Node node) {
-        //dfs traversal I am doing
-        if( node == null){
+       if(node == null){
             return null;
-        }
+       }
 
-        if(visited.containsKey(node)){
-            return visited.get(node);
-        }
+       if(visited.containsKey(node)){ // if already visited return
+        return visited.get(node);
+       }
 
-        //add the current node to visited
-        Node clone = new Node(node.val, new ArrayList<>());
-        visited.put(node, clone);
+       Node copy = new Node(node.val); //create the new node,   
+       visited.put(node, copy); // put it int the Map {1: 1}
 
-        //get the neighbors
-        for(Node neighbor: node.neighbors){ //itearting through the neighbor
-            clone.neighbors.add(cloneGraph(neighbor));
-        }
-
-        return clone;
+       // go onto traverse the neighbors
+       for(Node nbr : node.neighbors){ //traversethrough the nodes [2, 4] in this case
+           copy.neighbors.add(cloneGraph(nbr)); //we also need to add it into the list as well
+       }
+        
+        return visited.get(node);
     }
 }
