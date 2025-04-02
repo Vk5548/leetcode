@@ -335,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Vk5548/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
+| [0670-maximum-swap](https://github.com/Vk5548/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/Vk5548/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/Vk5548/leetcode/tree/master/1303-minimum-moves-to-reach-target-score) |
@@ -750,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Vk5548/leetcode/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/Vk5548/leetcode/tree/master/0502-ipo) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Vk5548/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/Vk5548/leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/Vk5548/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/Vk5548/leetcode/tree/master/0917-boats-to-save-people) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/Vk5548/leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
