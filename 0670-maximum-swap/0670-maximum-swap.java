@@ -14,42 +14,30 @@ maxDigit 6
 
  */
 class Solution {
-    static class DigitIdx {
-        int num;
-        int idx;
-        DigitIdx() {}
-        DigitIdx(int _num, int _idx) {
-            num = _num;
-            idx = _idx;
-        }
-    }
-
     public int maximumSwap(int num) {
-        char[] arr = String.valueOf(num).toCharArray();
-        int n = arr.length;
+        char[] digits = String.valueOf(num).toCharArray();
 
-        DigitIdx max = new DigitIdx(arr[n - 1] - '0', n - 1);
-        DigitIdx left = null, right = null;
+        int[] lastIdx = new int [10];
+        Arrays.fill(lastIdx, -1);
 
-        // Traverse from right to left
-        for (int i = n - 2; i >= 0; i--) {
-            int digit = arr[i] - '0';
+        int n = digits.length;
+        for(int i = 0; i < n; i++){
+            char c = digits[i];
+            lastIdx[c - '0'] = i;
+        }// got the lastindex of theat digits
 
-            if (digit > max.num) {
-                max = new DigitIdx(digit, i); // update max
-            } else if (digit < max.num) {
-                left = new DigitIdx(digit, i);
-                right = new DigitIdx(max.num, max.idx);
+        for(int i = 0; i < n; i++){
+            int curr = digits[i] - '0'; //for each digit
+            for(int j = 9; j > curr; j--){ // I will check if the greater digit is possible for idx > i
+                if( lastIdx[j] > i){
+                    char temp = digits[i];
+                    digits[i] = digits[lastIdx[j]];
+                    digits[lastIdx[j]] = temp;
+                    return Integer.parseInt(String.valueOf(digits));
+                }
             }
         }
 
-        // Only swap if a valid pair was found
-        if (left != null && right != null) {
-            char temp = arr[left.idx];
-            arr[left.idx] = arr[right.idx];
-            arr[right.idx] = temp;
-        }
-
-        return Integer.parseInt(String.valueOf(arr));
+        return num;
     }
 }
