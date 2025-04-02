@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/Vk5548/leetcode/tree/master/0392-is-subsequence) |
 | [0408-valid-word-abbreviation](https://github.com/Vk5548/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0409-longest-palindrome](https://github.com/Vk5548/leetcode/tree/master/0409-longest-palindrome) |
+| [0536-construct-binary-tree-from-string](https://github.com/Vk5548/leetcode/tree/master/0536-construct-binary-tree-from-string) |
 | [0567-permutation-in-string](https://github.com/Vk5548/leetcode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/Vk5548/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/Vk5548/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Vk5548/leetcode/tree/master/0155-min-stack) |
 | [0227-basic-calculator-ii](https://github.com/Vk5548/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
+| [0536-construct-binary-tree-from-string](https://github.com/Vk5548/leetcode/tree/master/0536-construct-binary-tree-from-string) |
 | [0682-baseball-game](https://github.com/Vk5548/leetcode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/Vk5548/leetcode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/Vk5548/leetcode/tree/master/0874-backspace-string-compare) |
@@ -510,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0536-construct-binary-tree-from-string](https://github.com/Vk5548/leetcode/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Vk5548/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
@@ -553,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/Vk5548/leetcode/tree/master/0529-minesweeper) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0536-construct-binary-tree-from-string](https://github.com/Vk5548/leetcode/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Vk5548/leetcode/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -641,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Vk5548/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vk5548/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Vk5548/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0536-construct-binary-tree-from-string](https://github.com/Vk5548/leetcode/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vk5548/leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Vk5548/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
