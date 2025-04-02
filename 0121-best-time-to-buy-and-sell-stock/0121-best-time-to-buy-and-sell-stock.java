@@ -1,24 +1,22 @@
+
+/* 
+prices[i] 
+, return the max maxProfit
+
+[7, 1, 5, 3, 6, 4] -> 
+A: 2 Pointers
+profit -3, left++, 1 4 
+
+A 1: brute firce: O(n2)
+*/
 class Solution {
     public int maxProfit(int[] prices) {
-        if(prices.length <= 1){
-            return 0;
+        int leftMin = Integer.MAX_VALUE;
+        int maxDiff = -1;
+        for(int i = 0; i < prices.length; i++){
+            if(prices[i] < leftMin) leftMin = prices[i];
+            maxDiff = Math.max(maxDiff, prices[i] - leftMin);
         }
-        int bp = prices[0];
-        int sp = prices[1];
-        int diff = sp - bp;
-        int maxDiff = diff;
-
-        for(int i = 1; i < prices.length; i++){
-            if(bp > prices[i] && i != prices.length -1){
-                bp = prices[i];
-                sp = prices[i+1];
-            }else if(sp < prices[i]){
-                sp = prices[i];
-            }
-            diff = sp - bp;
-            maxDiff = Math.max(maxDiff, diff);
-        }
-
-        return maxDiff > 0 ? maxDiff : 0;
+        return maxDiff;
     }
 }
