@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0487-max-consecutive-ones-ii](https://github.com/Vk5548/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/Vk5548/leetcode/tree/master/0502-ipo) |
+| [0523-continuous-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Vk5548/leetcode/tree/master/0525-contiguous-array) |
 | [0529-minesweeper](https://github.com/Vk5548/leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/Vk5548/leetcode/tree/master/0542-01-matrix) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Vk5548/leetcode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/Vk5548/leetcode/tree/master/0409-longest-palindrome) |
 | [0496-next-greater-element-i](https://github.com/Vk5548/leetcode/tree/master/0496-next-greater-element-i) |
+| [0523-continuous-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Vk5548/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Vk5548/leetcode/tree/master/0567-permutation-in-string) |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Vk5548/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/Vk5548/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/Vk5548/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0523-continuous-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Vk5548/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Vk5548/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Vk5548/leetcode/tree/master/0724-find-pivot-index) |
@@ -335,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Vk5548/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0268-missing-number](https://github.com/Vk5548/leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Vk5548/leetcode/tree/master/0367-valid-perfect-square) |
+| [0523-continuous-subarray-sum](https://github.com/Vk5548/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/Vk5548/leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/Vk5548/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1014-k-closest-points-to-origin](https://github.com/Vk5548/leetcode/tree/master/1014-k-closest-points-to-origin) |
