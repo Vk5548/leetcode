@@ -1,43 +1,41 @@
-/*
-int num; swap 2 digits at most once to get the maximum valued ans
+/* 
+Given a num:, swap at most once: 2 digits 
+to get the max valued answer
 
-I/p: 2736: 7236
-I/p: 9973: No swap needed
+I : 2736 -> 7236
 
-A1: /  and % to the number, get the digits and their location,
-goal is to get the max didgit, at start as possible?, right
+A1: To keep track of the digits and their last seen index
+and since there are only 10 digits
+arr[10];
 
-I: 2736
-itr 1 6, rem, 
-maxDigit 6:, tuple , minDigit (Digit and its index)
-maxDigit 6
+I am iter throu num, will convert it into arr
+and then for the current digit, I will find the largest digit and its index and then swap and return
+*/
 
- */
 class Solution {
     public int maximumSwap(int num) {
-        char[] digits = String.valueOf(num).toCharArray();
+        char[] numArr = String.valueOf(num).toCharArray();
+        int[] lastSeenIdx = new int[10]; // 0 to 9
+        for(int i =0; i < numArr.length; i++){
+            char c = numArr[i];
+            lastSeenIdx[c - '0'] = i;
+        } // got the arra filled with last indexes
 
-        int[] lastIdx = new int [10];
-        Arrays.fill(lastIdx, -1);
+        for(int i = 0; i < numArr.length; i++){
+            char c = numArr[i];
+            int curr = c - '0';
 
-        int n = digits.length;
-        for(int i = 0; i < n; i++){
-            char c = digits[i];
-            lastIdx[c - '0'] = i;
-        }// got the lastindex of theat digits
-
-        for(int i = 0; i < n; i++){
-            int curr = digits[i] - '0'; //for each digit
-            for(int j = 9; j > curr; j--){ // I will check if the greater digit is possible for idx > i
-                if( lastIdx[j] > i){
-                    char temp = digits[i];
-                    digits[i] = digits[lastIdx[j]];
-                    digits[lastIdx[j]] = temp;
-                    return Integer.parseInt(String.valueOf(digits));
+            // iterate through the digits in reverse manner
+            for(int j = 9; j > curr; j--){
+                if(lastSeenIdx[j] > i){ //idx of the digit > current idx; then swap
+                    char temp = numArr[i];
+                    numArr[i] = (char) (j + '0');
+                    numArr[lastSeenIdx[j]] = temp;
+                    return Integer.parseInt(new String(numArr));
                 }
             }
         }
-
         return num;
+
     }
 }
